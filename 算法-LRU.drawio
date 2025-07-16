@@ -4,6 +4,12 @@
       <root>
         <mxCell id="0" />
         <mxCell id="1" parent="0" />
+        <mxCell id="DYq5I0MkV7CGvvUD-ORN-1" value="" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="350" y="280" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="DYq5I0MkV7CGvvUD-ORN-2" value="01 的插入和获取，链表支持O1插入但不支持01查询（只能遍历），hash表支持O1查询但是不支持顺序，无法做到淘汰策略，因此要把这两个结合起来一看，用hash表加双向链表实现LRU&lt;div&gt;&lt;br&gt;&lt;/div&gt;&lt;div&gt;&lt;br&gt;&lt;/div&gt;&lt;div&gt;&lt;br&gt;&lt;/div&gt;&lt;div&gt;为什么单链表不行：只有后置节点的指针，删除的时候，需要知道前一个节点，所以O1时间范围内实际是拿不到的。&lt;/div&gt;" style="text;html=1;align=left;verticalAlign=top;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
+          <mxGeometry x="50" y="30" width="560" height="150" as="geometry" />
+        </mxCell>
       </root>
     </mxGraphModel>
   </diagram>
